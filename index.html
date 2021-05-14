@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<title>ABHISHEK MISHRA </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+  <header class="bgimg w3-display-container w3-greyscale-min w3-center-small">
+  ​<!-- Links (sit on top) -->
+
+ <p class="remote">theabhitech</h6>
+    <p class="normal">ABHISHEK MISHRA</p>
+    <p class="about">  Learner • Developer • Programmer</P>
+    <p class="social">
+        <a href="#" class=""><i class="fa fa-facebook-official"></i></a>
+        <a href="#" class=""><i class="fa fa-instagram"></i></a>
+        <a href="#" class=""><i class="fa fa-snapchat"></i></a>
+
+        <a href="#" class=""><i class="fa fa-twitter"></i></a>
+        <a href="#" class=""><i class="fa fa-linkedin"></i></a>
+
+    </p>
+  <div class=" w3-center w3-padding-large w3-hide-small w3-hide-medium">
+    <p class="image">
+     <img src="9.gif" alt="code" width="640">
+   </p>
+  </div>
+
+</header>
+<div class="w3-middle">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-F2EECB  w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h6 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">MY BLOG</span></h6>
+    <h4 class=" "><span class="w3-tag w3-wide"> Most In-Demand Programming Languages of 2018</span></h4>
+    <p><strong>1.Java</strong>
+  -   Java decreased in popularity by about 6,000 job postings in 2018 compared to 2017, but is still extremely well-established. Java is over 20 years old, used by millions of developers a
+      nd billions of devices worldwide.</p>
+      <p><strong>2. Python</strong>- Python grew in popularity by about 5,000 job postings over 2017. It is a general-purpose programming language used for web development and as a support language f
+         or software developers. </p
+         <p><strong>3.javascript</strong>
+          - JavaScript, the grandfather of programming languages, is roughly as popular today as it was in our last blog post. That’s no surprise to us – JavaScript is used by over 80% of developers and by 95% of all websites
+         </p>
+         <div class="w3-panel w3-leftbar w3-light-grey">
+        <p><strong>4.c++</strong>
+        -  C++ changed very little in popularity from early 2017 to now. An extension of the old-school “C” programming language, C++ is usually used for system/application software, game development, drivers, client-server applications and embedded firmware.
+         </p>
+        </div>
+       <img src="25.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+
+  </div>
+</div>
+
+
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+</div>
+<!-- End page content -->
+
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p><b>AbhisheK Kumar  Mishra</b> </p>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+</html>
